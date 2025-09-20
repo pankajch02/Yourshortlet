@@ -1,12 +1,5 @@
 export default function CityTiles() {
-  const cities = [
-    "London",
-    "Manchester",
-    "Bristol",
-    "Edinburgh",
-    "Birmingham",
-    "Leeds",
-  ];
+  const cities = ["London"];
   return (
     <section id="cities" className="max-w-7xl mx-auto px-6 py-8">
       <h3 className="text-xl font-semibold">Cities we operate in</h3>
