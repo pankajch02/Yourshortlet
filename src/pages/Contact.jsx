@@ -1,4 +1,16 @@
+import { useState } from "react";
+
 export default function Contact() {
+  const [sent, setSent] = useState(false);
+
+  const handleSubmit = (event) => {
+    event.preventDefault(); // Prevent page reload
+    setSent(true); // Show the "Message sent!" notification
+
+    // Hide the message after 3 seconds
+    setTimeout(() => setSent(false), 3000);
+  };
+
   return (
     <div className="bg-green-50 py-16">
       <div className="max-w-5xl mx-auto px-6">
@@ -16,7 +28,7 @@ export default function Contact() {
         </div>
 
         <div className="mt-10 bg-white rounded-xl shadow-lg max-w-2xl mx-auto p-8">
-          <form className="space-y-5">
+          <form className="space-y-5" onSubmit={handleSubmit}>
             <div>
               <label className="block text-green-800 text-sm font-medium">
                 Name
@@ -57,6 +69,13 @@ export default function Contact() {
               Send Message
             </button>
           </form>
+
+          {/* Toast notification */}
+          {sent && (
+            <div className="mt-4 p-3 bg-green-200 text-green-900 rounded-md text-center">
+              Message sent!
+            </div>
+          )}
         </div>
       </div>
     </div>
