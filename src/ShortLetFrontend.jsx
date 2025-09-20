@@ -11,12 +11,12 @@ import Dashboard from "./components/Dashboard";
 const mockProperties = [
   {
     id: "p1",
-    title: "Sunny 2-bed near city centre",
-    city: "Manchester",
+    title: "Modern Two-Bedroom Flat Just Minutes from Central Londons",
+    city: "London",
     pricePerNight: 85,
     occupancy: 72,
     image:
-      "https://www.servereworldsystem.com/include/blog/2614/26140339511d.jpeg.webp",
+      "https://images.unsplash.com/photo-1568495248636-6432b97bd949?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
   {
     id: "p2",
@@ -25,16 +25,16 @@ const mockProperties = [
     pricePerNight: 110,
     occupancy: 81,
     image:
-      "https://www.servereworldsystem.com/include/blog/2614/26140339513d.jpeg.webp",
+      "https://images.unsplash.com/photo-1702014862053-946a122b920d?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
   {
     id: "p3",
     title: "Cozy suburban home with garden",
-    city: "Bristol",
+    city: "London",
     pricePerNight: 69,
     occupancy: 65,
     image:
-      "https://scontent.fdel25-5.fna.fbcdn.net/v/t1.6435-9/40158530_329714364446942_8903272762848575488_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=127cfc&_nc_ohc=aX9jWZ-TLjsQ7kNvwGEHFpH&_nc_oc=AdmG5OBZRHek8s8KLqBS4Ie16xWkGOCGgLrocPZkST1FV-hDyfEP1fPgTpCqpPpA_Bo&_nc_zt=23&_nc_ht=scontent.fdel25-5.fna&_nc_gid=-_TDFiY4wcxjrkCWmJWffw&oh=00_AfYcarZDD1AUJ2z2dXgeFyq8x0Y4eGuKxflN5N_wnnznGQ&oe=68F39E44",
+      "https://images.unsplash.com/photo-1608463123864-40a2961b7d00?q=80&w=1097&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
 ];
 

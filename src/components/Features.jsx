@@ -1,20 +1,20 @@
 export default function Features() {
   const items = [
     {
-      title: "Listing & Photography",
-      desc: "Professional photos and optimised listings for max visibility.",
+      title: "Professional Listing",
+      desc: "We create and manage a stand-out listing with high quality photos and compelling copy.",
     },
     {
-      title: "Pricing & Revenue",
-      desc: "Dynamic pricing to increase nightly rates and occupancy.",
+      title: "Smart Pricing",
+      desc: "Our data-driven pricing keeps your calendar full and your revenue maximised.",
     },
     {
-      title: "Guest Support",
-      desc: "24/7 support and smooth check-in experience for guests.",
+      title: "Complete Guest Care",
+      desc: "From check-in to checkout, we handle every guest question and request.",
     },
     {
       title: "Cleaning & Maintenance",
-      desc: "Trusted local cleaners and maintenance partners.",
+      desc: "Reliable housekeeping and quick fixes to keep your property in great shape.",
     },
   ];
 

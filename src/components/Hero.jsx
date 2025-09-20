@@ -24,12 +24,11 @@ export default function Hero({ onSignupClick }) {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
           <div>
             <h1 className="text-3xl md:text-4xl font-extrabold leading-tight">
-              Make hosting effortless — grow rental income without the hassle
+              Stress-free short-let hosting
             </h1>
             <p className="mt-4 text-gray-600 max-w-xl">
-              We manage everything your guests see and don't see: listings,
-              pricing, cleaning and 24/7 guest support. Keep your keys — earn
-              more.
+              We handle everything from photos to pricing, cleaning and guest
+              care, so you can simply enjoy your rental income.
             </p>
 
             <div className="mt-6 flex flex-col sm:flex-row gap-3">
@@ -48,7 +47,7 @@ export default function Hero({ onSignupClick }) {
             </div>
 
             <div className="mt-6 text-sm text-gray-500">
-              Trusted in <strong>20+</strong> UK cities • Average host rating{" "}
+              Specialists in London short-lets • Average host rating{" "}
               <strong>4.8/5</strong>
             </div>
 
