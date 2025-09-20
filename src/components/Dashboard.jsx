@@ -6,7 +6,7 @@ const mockProperties = [
     pricePerNight: 85,
     occupancy: 72,
     image:
-      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=60",
+      "https://www.servereworldsystem.com/include/blog/2614/26140339511d.jpeg.webp",
   },
   {
     id: "p2",
@@ -15,7 +15,7 @@ const mockProperties = [
     pricePerNight: 110,
     occupancy: 81,
     image:
-      "https://images.unsplash.com/photo-1572120360610-d971b9b6a9fe?auto=format&fit=crop&w=1200&q=60",
+      "https://www.servereworldsystem.com/include/blog/2614/26140339513d.jpeg.webp",
   },
   {
     id: "p3",
@@ -24,7 +24,7 @@ const mockProperties = [
     pricePerNight: 69,
     occupancy: 65,
     image:
-      "https://images.unsplash.com/photo-1505691723518-36a1f2b4b7b5?auto=format&fit=crop&w=1200&q=60",
+      "https://scontent.fdel25-5.fna.fbcdn.net/v/t1.6435-9/40158530_329714364446942_8903272762848575488_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=127cfc&_nc_ohc=aX9jWZ-TLjsQ7kNvwGEHFpH&_nc_oc=AdmG5OBZRHek8s8KLqBS4Ie16xWkGOCGgLrocPZkST1FV-hDyfEP1fPgTpCqpPpA_Bo&_nc_zt=23&_nc_ht=scontent.fdel25-5.fna&_nc_gid=-_TDFiY4wcxjrkCWmJWffw&oh=00_AfYcarZDD1AUJ2z2dXgeFyq8x0Y4eGuKxflN5N_wnnznGQ&oe=68F39E44",
   },
 ];
 
